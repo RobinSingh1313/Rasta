@@ -1,26 +1,26 @@
-.header
-{position: absolute;
+.header {
+    position: absolute;
     font-family: Inter;
-font-size: 15px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 30px;
-color: black;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+    color: black;
+}
 
-}
-.break
-{
+.break {
     font-family: Inter;
-font-size: 15px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-color: black;
-margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
 }
+
 .dataimg {
     position: relative;
     font-size: 1rem;
@@ -35,14 +35,15 @@ margin-bottom: 30px;
 .section {
     position: absolute;
     margin-top: 30%;
+    overflow-y: auto;
 }
 
 .dataparagraph {
     color: grey;
     text-align: center;
 }
-.dataparagraphs
-{
+
+.dataparagraphs {
     color: white;
 }
 
@@ -69,23 +70,18 @@ margin-bottom: 30px;
     justify-content: center;
     height: 100%;
 }
-.card > div >div
 
-{
+.card > div > div {
     display: flex;
     flex-direction: column;
-    align-items: first baseline;
+    align-items: baseline;
     justify-content: center;
-    height: 100%;}
-    h4{
-        color: #FFFFFF;
-        font-size: 0.8rem;
-        margin-top: 5px;
-        margin-bottom: 5px
-    }
-   
-    /* Add this style to make the y-direction scrollable */
+    height: 100%;
+}
 
-  
-  /* Rest of your existing CSS styles */
-  
+h4 {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

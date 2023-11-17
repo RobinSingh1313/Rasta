@@ -46,9 +46,36 @@ data at a glance in a visualized form.</p>
 
     <div className='card' style={{ backgroundColor: 'red' }}>
     <div>
-        <img className='dataimg' src='mask.png' alt='Notes' />
+        <img className='dataimg' src='white.png' alt='Notes' />
+
         <div>
-        <h4>Level 0</h4>
+        <h4>Good</h4>
+        <p className='dataparagraphs'>
+        Total Distance Surveyed 
+        </p>
+        </div>
+    </div>
+</div>
+
+<div className='card' style={{ backgroundColor: 'yellow' }}>
+    <div>
+        <img className='dataimg' src='yellows.png' alt='Notes' />
+
+        <div>
+        <h4>Good</h4>
+        <p className='dataparagraphs'>
+        Total Distance Surveyed 
+        </p>
+        </div>
+    </div>
+</div>
+
+<div className='card' style={{ backgroundColor: 'green' }}>
+    <div>
+        <img className='dataimg' src='greens.png' alt='Notes' />
+
+        <div>
+        <h4>Good</h4>
         <p className='dataparagraphs'>
         Total Distance Surveyed 
         </p>

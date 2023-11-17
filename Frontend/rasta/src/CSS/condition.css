@@ -101,7 +101,7 @@ text-align: left;
 .light_green-circle {
     width: 20px;
     height: 20px;
-    background-color: lightgreen;
+    background-color: rgb(15, 210, 15);
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
@@ -129,7 +129,7 @@ text-align: left;
 .light_red-circle {
     width: 20px;
     height: 20px;
-    background-color: lightcoral;
+    background-color: yellow;
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
@@ -256,6 +256,7 @@ display: inline-block;
 margin-right: 10px;
 vertical-align: middle;
 }
+.dark_yellow-circle{}
 
 .black-circle {
 width: 20px;

@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { BsToggles } from "react-icons/bs";
 import { IoSearchCircle } from "react-icons/io5";
 
-
+import '../index.css';
 import Mapcomponent from './Mapcomponent';
-import Road from './Road';
 import Details from './Details';
 import Calculate from './Calculate';
 import Notification from './Notification';
 import Chart from './Chart';
+import Roads from './Roads';
 
 const Sidenavbar = () => {
   const [sidebarClosed, setSidebarClosed] = useState(false);
@@ -462,7 +462,7 @@ const Sidenavbar = () => {
 <Notification/>
 <Details/>
 <Chart/>
-     <Road/>  
+     <Roads/>  
 
 
          

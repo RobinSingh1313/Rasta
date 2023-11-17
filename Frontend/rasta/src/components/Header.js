@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Filters from './Filters';
 import DataVisulization from './DataVisulization';
+import Roads from './Roads';
 // ... (your existing imports)
 
 // ... (your existing React component)
@@ -20,26 +21,36 @@ const Header = () => {
       setSidebarOpen(true);
     };
   
+
     return (
-      <div className={`header ${isSidebarOpen ? 'sidebar-open' : ''}`}>
+    <>
+    <div className={`header ${isSidebarOpen ? 'sidebar-open' : ''}`}>
         <header>
           <nav>
             <div>
               <ul>
-                <li className='logo'><img className='logo' src='Rasta.Ai.png'></img></li>
-                <li onClick={() => handleNavItemClick('filter')}><img src='filter.png'></img></li>
-                <li onClick={() => handleNavItemClick('data')}><img src='Data.png'></img></li>
-                <li onClick={() => handleNavItemClick('data')}><img src='notes.png'></img></li>
+              <li className={`logo ${selectedNavItem === 'logo' ? 'selected' : ''}`} onClick={() => handleNavItemClick('logo')}>
+                <img className='logo' src='Rasta.Ai.png' alt='logo' />
+              </li>
+              <li className={`filter ${selectedNavItem === 'filter' ? 'selected' : ''}`} onClick={() => handleNavItemClick('filter')}>
+                <img src='filter.png' alt='filter' />
+              </li>
+              <li className={`data ${selectedNavItem === 'data' ? 'selected' : ''}`} onClick={() => handleNavItemClick('data')}>
+                <img src='Data.png' alt='data' />
+              </li>  
+              
+              <li onClick={() => handleNavItemClick('data')}><img src='notes.png'></img></li>
                 <li onClick={() => handleNavItemClick('data')}><img src='calculator.png'></img></li>
-                <li onClick={() => handleNavItemClick('data')}><img src='search.png'></img></li>
+                <li onClick={() => handleNavItemClick('search')}><img src='search.png'></img></li>
                 <li onClick={() => handleNavItemClick('data')}><img src='bell.png'></img></li>
+                <li onClick={() => handleNavItemClick('highway')}><img src='highway.png'></img></li>
                 {/* Add more items as needed */}
               </ul>
             </div>
             <div className='nav_toggle'>
-              <div className="toggle-icon" >
-                <span>&#9654;</span>
-              </div>
+            <div className="toggle-icon">
+        <span>&#9776;</span>
+    </div>
             </div>
           </nav>
         </header>
@@ -60,8 +71,13 @@ const Header = () => {
             <span>&#9654;</span>
           </div>
         </aside>
+       
       </div>
-    );
+      {/*  add here Map component 
+      <MapComponent issidebarOpen={isSidebarOpen} */}
+      <Roads isSidebarOpen={isSidebarOpen} />
+
+</>    );
 };
 
 export default Header;

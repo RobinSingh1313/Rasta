@@ -40,7 +40,7 @@ const ConditionBox = () => {
     <>
      <div className="col conditions con" id="conditions-section">
           <div className="Condition">
-            <h4>POINTS</h4>
+          <h4 style={{ color: 'black' }}>POINTS</h4>
          
             <space>
           
@@ -48,9 +48,9 @@ const ConditionBox = () => {
 
               <div className="col">
                 <div className="leftside">
-                  <div className="orange-circle" />
+                  <div className="light_green-circle" />
                   <div className="round_icon" />
-                  All
+                  Good
                 </div>
                 <input
                         type="checkbox"
@@ -60,9 +60,9 @@ const ConditionBox = () => {
               </div>
               <div className="col">
                 <div className="leftside">
-                  <div className="darkGreen-circle" />
+                  <div className="light_red-circle" />
                   <div className="round_icon" />
-                  Level 0
+                  Average
                 </div>
                 <input
                         type="checkbox"
@@ -73,17 +73,16 @@ const ConditionBox = () => {
               <div className="col">
                 {" "}
                 <div className="leftside">
-                  <div className="light_green-circle" />
+                  <div className="red-circle" />
                   <div className="round_icon" />
-                  Level 1
-                </div>
+Bad                </div>
                 <input
                         type="checkbox"
                         checked={checkboxSelections.level1}
                         onChange={() => handleCheckboxChange('level1')}
                       />
               </div>
-              <div className="col">
+          { /*   <div className="col">
                 {" "}
                 <div className="leftside">
                   <div className="dark_yellow-circle" />
@@ -163,8 +162,8 @@ const ConditionBox = () => {
               </div>
 
 
-
-
+*/
+  }
              
               </div>
               

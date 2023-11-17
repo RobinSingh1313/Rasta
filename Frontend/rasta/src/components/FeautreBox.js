@@ -38,7 +38,7 @@ const FeautreBox = () => {
   <>
   <div className="col conditions con" id="conditions-section">
 <div className="Condition">
-  <h4>POINTS</h4>
+  <h4>Road Feautres</h4>
 
   <space>
 
@@ -48,7 +48,7 @@ const FeautreBox = () => {
         <div className="leftside">
           <div className="darkGreen-rectangle" />
           <div className="round_icon" />
-          Level 0
+          All Signs
         </div>
         <input
               type="checkbox"
@@ -74,7 +74,7 @@ const FeautreBox = () => {
         <div className="leftside">
           <div className="dark_yellow-rectangle" />
           <div className="round_icon" />
-          Level 2
+          Mandatory Signs
         </div>
         <input
               type="checkbox"
@@ -87,7 +87,7 @@ const FeautreBox = () => {
         <div className="leftside">
           <div className="light_red-rectangle" />
           <div className="round_icon" />
-          Level 3
+Warning Signs
         </div>
         <input
               type="checkbox"
@@ -100,7 +100,7 @@ const FeautreBox = () => {
         <div className="leftside">
           <div className="red-rectangle" />
           <div className="round_icon" />
-          Level 4
+          Informatory Sins
         </div>
         <input
               type="checkbox"
@@ -113,8 +113,7 @@ const FeautreBox = () => {
         <div className="leftside">
           <div className="grey-rectangle" />
           <div className="round_icon" />
-          Unassessed
-        </div>
+Road Assets        </div>
         <input
               type="checkbox"
               checked={checkboxSelections.unassessed}
