@@ -1,0 +1,46 @@
+/* Header.css */
+
+.app {
+    display: flex;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .logo {
+    margin-right: 20px; /* Add some space after the logo */
+  }
+  
+  .sidebar {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar-open {
+    transform: translateX(0);
+  }nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Make the list items display in a row */
+    flex-direction: column; /* Display the list items vertically */
+  }
+  
+  nav ul  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  nav li:hover {
+    background-color: lightgray;
+  }
+  
+  
+  nav li:hover {
+    background-color: lightgray;
+  }
+  

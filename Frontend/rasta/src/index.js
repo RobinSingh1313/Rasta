@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './CSS/header.css'
+import './CSS/filter.css'
+import './CSS/color.css'
+import './CSS/search.css'
+import './CSS/condition.css'
+import './CSS/datavisulzation.css'
 import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
