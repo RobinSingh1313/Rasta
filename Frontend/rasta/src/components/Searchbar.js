@@ -2,9 +2,11 @@ import React, { useEffect } from 'react'
 
 const Searchbar = () => {
   return (
-<>
-<input className='search' type="text" placeholder="search Conditions/ Tags.." />
+<><diV className="searchOutline">
 
+
+<input className='search' type="text" placeholder="search Conditions/ Tags.." />
+</diV>
 </>
 
   );
