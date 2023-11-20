@@ -1,0 +1,36 @@
+
+.scrollable-container {
+    max-height: 500px; /* Set a max height according to your design */
+    overflow-y: scroll;
+  }
+ 
+.search-header{
+    color: white;
+
+    margin-top: 10%;
+}
+
+.top
+{
+    position: absolute;
+    margin: 10px;
+margin-top: 10%;
+align-items: center;
+}
+.roadways_title
+{
+color: #000;
+}
+.global_image
+{
+    width: 100%;
+    height: 200px;
+}
+.drop
+{
+    margin-top: 30%;
+}
+.toDrop
+{
+    margin-top: 10%;
+}

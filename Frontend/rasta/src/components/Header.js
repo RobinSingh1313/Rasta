@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Filters from './Filters';
 import DataVisulization from './DataVisulization';
 import Roads from './Roads';
+import SearchComponent from './SearchComponent';
 // ... (your existing imports)
 
 // ... (your existing React component)
@@ -60,6 +61,8 @@ const Header = () => {
             <div className="sidebar-content">
               {selectedNavItem === 'filter' && <Filters/>}
               {selectedNavItem === 'data' && <DataVisulization/>}
+              {selectedNavItem === 'search' && <SearchComponent/>}
+
               {/* Add more content for other items as needed */}
             </div>
           )}

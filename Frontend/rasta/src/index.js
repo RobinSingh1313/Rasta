@@ -7,6 +7,8 @@ import './CSS/search.css'
 import './CSS/condition.css'
 import './CSS/road.css'
 import './CSS/datavisulzation.css'
+import './CSS/dropdown.css'
+import './CSS/searchComponent.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
